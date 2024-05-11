@@ -10,7 +10,7 @@
             <p id="timer"></p>
         </div>
         <script>
-            var countDownDate = new Date("May 10, 2024  18:00:00").getTime();
+            var countDownDate = new Date("May 24, 2024  00:00:00").getTime();
             var x = setInterval(function() {
                 var now = new Date().getTime();
                 var distance = countDownDate - now;
@@ -21,7 +21,7 @@
                 document.getElementById("timer").innerHTML = days + "d " + hours + "h "  + minutes + "m " + seconds + "s ";
                 if (distance < 0) {
                     clearInterval(x);
-                    document.getElementById("timer").innerHTML = "AHHHHHHHHHHHHH <3";
+                    document.getElementById("timer").innerHTML = "Happy 1 Month Gorgeous <3";
                 }
             }, 1000);
         </script>
